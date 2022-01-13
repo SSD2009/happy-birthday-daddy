@@ -1,0 +1,47 @@
+h3,h4{
+    font-size: 25px !important;
+    font-weight: bold !important;
+}
+
+h1{
+    font-weight: bold !important;
+}
+
+.btn-warning:hover{
+    background-color: red;
+}
+
+canvas{
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
+
+.btn-success {background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%)}
+.btn-success {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-success:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ img{
+     border: 2px solid black;
+ }
